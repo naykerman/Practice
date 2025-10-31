@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
   <body>
@@ -12,27 +13,40 @@
       </a>
       <nav>
         <ul>
-          <li><a href="#traditions-section">Наші традиції</a></li>
-          <li><a href="#chefs-section">Шеф-кухарі</a></li>
-          <li><a href="#formats-section">Формати</a></li>
-          <li><a href="#contacts-section">Контакти</a></li>
+          <li>
+            <a class="menu-point" href="#traditions-section">Наші традиції</a>
+          </li>
+          <li><a class="menu-point" href="#chefs-section">Шеф-кухарі</a></li>
+          <li><a class="menu-point" href="#formats-section">Формати</a></li>
+          <li><a class="menu-point" href="#contacts-section">Контакти</a></li>
         </ul>
       </nav>
-      <button type="button"><a href="#">Замовити дзвінок</a></button>
+      <button class="button" type="button">
+        <a href="#">Замовити дзвінок</a>
+      </button>
     </header>
     <main>
-      <section>
-        <h1>Сучасна пекарня</h1>
+      <section class="hero-section">
+        <h1 class="hero-title">
+          <span class="accent-color">Сучасна</span> пекарня
+        </h1>
+        <ul class="advantages-list">
+          <li>Великий попит на ринку</li>
+          <li>Доступні за бюджетом формати</li>
+          <li>Досвідчена управлінська команда</li>
+        </ul>
       </section>
       <section id="traditions-section">
         <h2>Новий формат традицій</h2>
         <p>
-          shop bakery — це пекарня, яка взяла все найкраще, і зберегла смак
-          традиційної випічки та натуральність інгредієнтів.
+          <span class="color-green">SHOP BAKERY</span> — це пекарня, яка взяла
+          все найкраще, і зберегла смак традиційної випічки та натуральність
+          інгредієнтів.
         </p>
         <p>
-          Ми працюємо як найвідоміші мережі— 5 хвилин і замовлення готове. А ще
-          у наших пекарень стильний дизайн та висока якість обслуговування!
+          Ми працюємо як найвідоміші мережі—
+          <span class="color-green">5 хвилин і замовлення готове.</span> А ще у
+          наших пекарень стильний дизайн та висока якість обслуговування!
         </p>
         <img
           src="./img/Backer-men.jpg"
@@ -40,7 +54,7 @@
         />
       </section>
       <section id="chefs-section">
-        <h2>Наші найкращі шеф -кухарі</h2>
+        <h2>Наші найкращі <span class="color-darkgreen">шеф-кухарі</span></h2>
         <ul>
           <li>
             <article>
